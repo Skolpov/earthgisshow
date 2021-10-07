@@ -2490,6 +2490,11 @@ button.swiper-pagination-bullet {
     background-image: url("../img/pictures/backgrounds/header-bg-2x.jpg");
   }
 }
+@media only screen and (max-width: 320px) {
+  #first-screen {
+    background-image: none;
+  }
+}
 
 .banner__container .padding_tb {
   padding-top: 150px;
@@ -2513,6 +2518,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .banner__block .main-title {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 .banner__block .main-title._active {
   -webkit-transform: translate(0px, 0);
@@ -2542,6 +2555,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .banner-btn {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 480px) {
   .banner-btn {
@@ -2609,6 +2630,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .advantages__block .advantage {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 .advantages__block .advantage__ic {
   min-width: 70px;
@@ -2794,6 +2823,14 @@ button.swiper-pagination-bullet {
   transition: all 6s ease;
   opacity: 0;
 }
+@media only screen and (max-width: 992px) {
+  .purpose__pic-earth {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 
 .purpose__pic-earth._active {
   opacity: 1;
@@ -2813,6 +2850,14 @@ button.swiper-pagination-bullet {
   transition: all 0.8s ease 0.3s;
   opacity: 0;
 }
+@media only screen and (max-width: 992px) {
+  .purpose__pic-bg {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 
 .purpose__pic-bg._active {
   opacity: 1;
@@ -2830,6 +2875,14 @@ button.swiper-pagination-bullet {
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
 }
+@media only screen and (max-width: 992px) {
+  .purpose__info h2 {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 .purpose__info h2._active {
   -webkit-transform: translate(0px, 0);
       -ms-transform: translate(0px, 0);
@@ -2844,6 +2897,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .purpose__info .text {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 .purpose__info .text p {
   color: #A9A4CA;
@@ -2924,6 +2985,14 @@ button.swiper-pagination-bullet {
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
 }
+@media only screen and (max-width: 992px) {
+  .features__text h2 {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 .features__text h2._active {
   -webkit-transform: translate(0px, 0);
       -ms-transform: translate(0px, 0);
@@ -2949,6 +3018,14 @@ button.swiper-pagination-bullet {
     font-size: calc(16px + 4 * (100vw / 1920));
   }
 }
+@media only screen and (max-width: 992px) {
+  .features__text p {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 .features__text p._active {
   -webkit-transform: translate(0px, 0);
       -ms-transform: translate(0px, 0);
@@ -2971,6 +3048,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .features__mechanisms {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 992px) {
   .features__mechanisms {
@@ -3050,6 +3135,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .features__cards {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 
 .features__cards._active {
@@ -3235,6 +3328,14 @@ button.swiper-pagination-bullet {
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
 }
+@media only screen and (max-width: 992px) {
+  .fieldactivity__info .desc__title {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 .fieldactivity__info .desc .desc__title._active {
   -webkit-transform: translate(0px, 0);
       -ms-transform: translate(0px, 0);
@@ -3250,6 +3351,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .fieldactivity__info .desc__text {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 .fieldactivity__info .desc__text p {
   color: #A9A4CA;
@@ -3290,6 +3399,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .fieldactivity__info .desc .gerb {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 480px) {
   .fieldactivity__info .desc .gerb {
@@ -3522,6 +3639,14 @@ button.swiper-pagination-bullet {
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
 }
+@media only screen and (max-width: 992px) {
+  .indicators__title {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
 @media only screen and (max-width: 768px) {
   .indicators__title {
     margin-bottom: 2rem;
@@ -3608,6 +3733,10 @@ button.swiper-pagination-bullet {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -3735,6 +3864,10 @@ button.swiper-pagination-bullet {
 @media only screen and (max-width: 992px) {
   .final__row h2 {
     margin-bottom: 4rem;
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
   }
 }
 .final__row h2._active {
@@ -3751,6 +3884,14 @@ button.swiper-pagination-bullet {
   -webkit-transition: all 0.8s ease 0.3s;
   -o-transition: all 0.8s ease 0.3s;
   transition: all 0.8s ease 0.3s;
+}
+@media only screen and (max-width: 992px) {
+  .final__row .final__call-btn {
+    -webkit-transform: translate(0px, 0);
+        -ms-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    opacity: 1;
+  }
 }
 .final__row .final__call-btn._active {
   -webkit-transform: translate(0px, 0);

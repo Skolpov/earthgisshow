@@ -8299,16 +8299,19 @@ window.addEventListener('DOMContentLoaded', function () {
         var animItemOffset = offset(animItem).top;
         var animStart = 4;
         var animItemPoint = window.innerHeight - animItemHeight / animStart;
+        var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
         if (animItemHeight > window.innerHeight) {
           animItemPoint = window.innerHeight - window.innerHeight / animStart;
         }
 
-        if (pageYOffset > animItemOffset - animItemPoint && pageYOffset < animItemOffset + animItemHeight) {
-          animItem.classList.add('_active');
-        } else {
-          if (!animItem.classList.contains('_anim-no-hide')) {
-            animItem.classList.remove('_active');
+        if (viewport_width >= 992) {
+          if (pageYOffset > animItemOffset - animItemPoint && pageYOffset < animItemOffset + animItemHeight) {
+            animItem.classList.add('_active');
+          } else {
+            if (!animItem.classList.contains('_anim-no-hide')) {
+              animItem.classList.remove('_active');
+            }
           }
         }
       }
